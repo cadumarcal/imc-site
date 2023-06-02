@@ -28,7 +28,7 @@ body {
      margin-left: 25%;
      margin-top: 15%;
 }
-form {
+.form {
      background-color: #181920;
      display: flex;
      border-radius: 0 10px 10px 0;
@@ -49,7 +49,7 @@ h4 {
      margin-right: 260px;
      margin-top: 15px;
 }
-form input {
+.form input {
      margin-top: 30px;
      height: 60px;
      width: 320px;
@@ -61,14 +61,14 @@ form input {
      padding-left: 15px;
      color: #CBD0F7;
 }
-form [type="submit"]{
+.form [type="submit"]{
      display: block;
      background-color: #5568FE;
      font-size: 20px;
      text-transform: uppercase;
      font-weight: bold;
 }
-form [type="submit"]:hover {
+.form [type="submit"]:hover {
      background-color: #6173f8;
 }
 input::placeholder {
