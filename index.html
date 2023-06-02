@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="shortcut icon" href="./img/cadu-logo.png" type="image/x-icon">
+     <link rel="stylesheet" href="./style.css">
+     <title>IMC - Calculadora</title>
+</head>
+<body>
+     <div class="area-login">
+      <div class="image">
+          <img src="./img/girl-workout.png">
+      </div>
+      <form method="post">
+          <h3>CALCULE SEU IMC !</h3>
+          <input type="text" placeholder="Metros" id="height">
+          <input type="text" placeholder="Quilos" id="weight">
+          <input type="submit" value="calcular" onclick="Calculate()">
+          <div id="result"></div>
+      </form>
+     </div>
+     <div id="result"></div>
+     <script src="./main.js"></script>
+</body>
+</html>
